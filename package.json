@@ -1,0 +1,25 @@
+{
+  "name": "lethalorca-vercel",
+  "version": "1.0.0",
+  "description": "LethalOrca Vercel Serverless Backend",
+  "main": "api/transfer.js",
+  "scripts": {
+    "test": "node api/transfer.js"
+  },
+  "keywords": [
+    "solana",
+    "spl-token",
+    "lethalorca",
+    "vercel",
+    "serverless"
+  ],
+  "author": "LethalOrca",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.93.0",
+    "@solana/spl-token": "^0.4.5"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
