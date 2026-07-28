@@ -1,0 +1,21 @@
+{
+  "buildCommand": "npm install",
+  "devCommand": "node api/transfer.js",
+  "installCommand": "npm install",
+  "env": {
+    "SOLANA_RPC_URL": {
+      "description": "Solana RPC URL",
+      "required": true
+    },
+    "SOLANA_PRIVATE_KEY": {
+      "description": "Dev wallet private key as JSON array",
+      "required": true
+    }
+  },
+  "functions": {
+    "api/transfer.js": {
+      "memory": 1024,
+      "maxDuration": 30
+    }
+  }
+}
